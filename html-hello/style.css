@@ -1,0 +1,107 @@
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+
+body {
+  background-color: white;
+}
+
+.colornavbar {
+  background-color: white;
+}
+
+.colorbutton {
+  background-color: orange;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+.div1 {
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+.div2 {
+  grid-area: 1 / 2 / 2 / 3;
+}
+
+.div3 {
+  grid-area: 1 / 3 / 2 / 4;
+}
+
+.div4 {
+  grid-area: 2 / 1 / 3 / 2;
+}
+
+.div5 {
+  grid-area: 2 / 2 / 3 / 3;
+}
+
+.div6 {
+  grid-area: 2 / 3 / 3 / 4;
+}
+
+.div7 {
+  grid-area: 3 / 1 / 4 / 2;
+}
+
+.div8 {
+  grid-area: 3 / 2 / 4 / 3;
+}
+
+.div9 {
+  grid-area: 3 / 3 / 4 / 4;
+}
+
+.imagen {
+  object-fit: contain;
+  height: 100%;
+  width: 100%;
+}
+
+
+.post-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.image-container {
+  width: 200px;
+}
+
+img {
+  object-fit: cover;
+  width: 100%;
+}
+
+.comment-container {
+  padding: 10px;
+  font-size: 20px;
+}
+
+.h1 {
+  font-family:'Courier New', Courier, monospace;
+}
+
+.container {
+  margin: auto;
+  background: rgb(240, 236, 236);
+  margin-top: 20px;
+  width: 400px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px;
+  border: 1px solid rgb(92, 90, 90);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+
+}
