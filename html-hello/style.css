@@ -105,3 +105,11 @@ img {
   justify-content: space-between;
 
 }
+
+.padre-imagenes{ width:100%;
+  height: 100%;
+  margin-top: 2%;
+  padding: 10px;
+  margin: auto;
+  
+}
